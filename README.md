@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Schedulr (Scheduling Application)
 
-## Getting Started
+A comprehensive full-stack scheduling application built from scratch using the latest and greatest technologies in the industry. This project showcases a complete development journey—from frontend to backend.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This full stack scheduling application is built from scratch using the best technology on the market. The application leverages the following technologies:
+- Next.js
+- Nylas
+- Supabase Postgres
+- Prisma
+- Tailwind CSS
+- Auth.js
+- Shadcn/UI
+- Vercel
+- Conform
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js App Router**
+- **Nylas Calendar API**
+  - Create Meetings
+  - Cancel Meetings
+  - Search Calendar
+- **Custom Auth** using Next–Auth OAuth (Google and GitHub)
+- **Custom Booking Form** with dynamic availability & real-time updates
+- **Fully Custom-built Calendar**
+  - No plugins—all from scratch!
+  - Availability Integration into the Calendar
+- **Supabase Postgres Database**
+- **Prisma ORM**
+- **Fully Responsive Landing Page** with a dark mode toggle
+- **Server Validation** using Zod and Conform
+- **Unique Username Validation**
+- **Automatic Email Confirmations** & real-time event syncing
+- **File Upload** with Uploadthing
+- **Beautiful Dashboard** for meetings, settings, and availability
+- **Styling** with Tailwind CSS and Shadcn UI
+- **Deployment** to Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## License
 
-## Learn More
+This project is licensed under the MIT License.
 
-To learn more about Next.js, take a look at the following resources:
+## Acknowledgments
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Special thanks to all the open-source projects and libraries that made this project possible.
