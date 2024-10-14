@@ -22,7 +22,7 @@ export function AuthModal() {
       <DialogContent className="sm:max-w-[360px]">
         <DialogHeader className="flex-row justify-center items-center gap-x-2">
           <h4 className="text-3xl font-bold">
-            <span className="text-primary">Schedulr</span>
+            <span className="">Schedulr</span>
           </h4>
         </DialogHeader>
         <div className="flex flex-col gap-3 mt-5">

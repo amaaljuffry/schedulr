@@ -9,7 +9,7 @@ export function OldHomePage() {
       <nav className="flex items-center w-full  py-5 justify-between">
       <Link href="/" className="flex items-center gap-2">
           <h1 className="text-3xl text-primary">
-            <span className=" font-bold text-[#0B52A0]">Schedulr</span>
+            <span className=" font-bold ">Schedulr</span>
           </h1>
         </Link>
 

@@ -62,7 +62,7 @@ export default async function Dashboard({ children }: { children: ReactNode }) {
             <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
             <Link href="/" className="flex items-center gap-2">
           <h1 className="text-3xl text-primary">
-            <span className=" font-bold text-[#0B52A0]">Schedulr</span>
+            <span className=" font-bold ">Schedulr</span>
           </h1>
         </Link>
             </div>
@@ -72,7 +72,7 @@ export default async function Dashboard({ children }: { children: ReactNode }) {
               </nav>
             </div><Link href="/" className="flex items-center gap-2 px-4">
           <h1 className="text-3xl text-primary mb-10">
-            <span className=" font-bold text-[#0B52A0] ">Schedulr
+            <span className=" font-bold  ">Schedulr
               <span className="text-sm"> v1.0.3</span>
               </span> 
           </h1>

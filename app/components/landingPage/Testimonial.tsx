@@ -24,7 +24,7 @@ export function Testimonial() {
                   fill="currentColor"
                 />
               </svg>
-              <span className="relative z-10 font-bold text-[#0B52A0]">
+              <span className="relative z-10 font-bold ">
                 Wow Schedulr is the best platform I have ever used. Definitely
                 Recommend it to you guys, try it out!
               </span>

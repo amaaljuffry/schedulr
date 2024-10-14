@@ -7,35 +7,28 @@ export function Hero() {
   return (
     <section className="relative flex items-center justify-center">
       <div className="relative items-center w-full py-12 lg:py-20">
-        <div className="text-center text-primary">
-          <span className="text-sm font-bold tracking-tight bg-primary/10 px-4 py-2 rounded-full text-[#0B52A0]">
+        <div className="text-center">
+          <span className="text-sm font-bold tracking-tight bg-primary/10 px-4 py-2 rounded-full dark:bg-primary-dark/50">
             Introducing Schedulr 1.0
           </span>
-
-          <h1 className="mt-8 text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-none text-[#000000]">
+          <h1 className="mt-8 text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-none text-primary">
             Scheduling made{" "}
-            <span className="block text-[#0B52A0]">super easy!</span>
+            <span className="block">super easy!</span>
           </h1>
-
-          <p className="max-w-xl mx-auto mt-4 lg:text-lg text-[#0B52A0] font-semibold">
-            Scheduling meetings can be a challenge, but Schedulr streamlines the
-            process, making it effortless for your clients to connect with you.
+          <p className="max-w-xl mx-auto mt-4 lg:text-lg font-semibold">
+            Schedulr simplifies meeting scheduling, making it easy for clients to connect with you.
           </p>
-          <p className="mt-4 text-center text-sm text-[#0B52A0]">
-            <span>Trusted by 200,000+ users </span>
-            <p>using Schedulr to manage their schedules seamlessly.</p>
+          <p className="mt-4 text-center text-sm">
+            <span>Trusted by 6000+ users </span>
+            <span>that use Schedulr to manage their schedules seamlessly.</span>
           </p>
-
           <div className="mt-5 mb-6 flex flex-col items-center">
-            <div className="flex flex-col items-center mb-4  text-black">
-              <p>
-                <AvatarCirclesDemo />
-              </p>
+            <div className="flex flex-col items-center mb-4 ">
+              <AvatarCirclesDemo />
             </div>
             <AuthModal />
           </div>
         </div>
-
         <div className="relative items-center w-full py-12 mx-auto mt-12">
           <svg
             className="absolute inset-0 -mt-24 blur-3xl"
@@ -90,7 +83,6 @@ export function Hero() {
               </filter>
             </defs>
           </svg>
-
           <Image
             src={HeroImage}
             alt="Hero image"

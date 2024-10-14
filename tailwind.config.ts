@@ -22,7 +22,7 @@ const config: Config = {
           foreground: 'hsl(var(--popover-foreground))',
         },
         primary: {
-          DEFAULT: 'hsl(var(--primary))',
+          DEFAULT: '#0B52A0', // New primary color
           foreground: 'hsl(var(--primary-foreground))',
         },
         secondary: {
