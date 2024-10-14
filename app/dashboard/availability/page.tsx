@@ -49,6 +49,7 @@ const AvailabilityPage = async () => {
           In this section you can manage your availability.
         </CardDescription>
       </CardHeader>
+      {/*@ts-ignore*/}
       <form action={updateAvailabilityAction}>
         <CardContent className="flex flex-col gap-y-4">
           {data.map((item) => (
